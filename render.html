@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            border: 2px solid black;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Movie</h1>
+        <img class="img" alt="blank" height="200px" width="350px">
+
+    </div>
+
+
+    <script>
+        // async function movies() {
+        //     let data = await fetch("https://imdb-api.com/en/API/SearchMovie/k_uygzndjo/kgf");
+        //     let json = await data.json();
+        //     console.log(json);
+        //     console.log(json.results[0].image);
+
+        //     // let data1 = "";
+
+        //     // json.map((values) => {
+        //     //     data1 = '<img class="img" src="${values.results[0].image}" alt="blank" height="200px" width="350px">';
+        //     // });
+
+        //     // document.getElementsByClassName("container").src = data1;
+
+        //     document.getElementsByClassName("img").src = json.results[0].image;
+        // }
+
+        // movies();
+
+        const options = {
+            method: 'GET',
+            headers: {
+                "appId": "f5b57bda",
+                "appKey": "a5cac7a0bf3d5367be88769d282efc55—",
+                "query": "Cookies `n Cream"
+            }
+        };
+
+        async function nasa() {
+
+            // var report = await fetch("https://api.nasa.gov/planetary/apod?api_key=xHeJiExBByUvhmafY8rbFXEiJ480NGImtGBzeESj");
+            var report = await fetch("https://api.nutritionix.com/v1_1/search%20-H%20'Content-Type:%20application/json'%20-d'");
+            var ready = await report.json();
+            console.log(ready);
+
+            // document.getElementsByClassName("img").src = ready.hdurl;
+
+        }
+
+
+        nasa();
+
+    </script>
+</body>
+
+</html>

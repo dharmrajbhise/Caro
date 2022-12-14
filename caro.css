@@ -1,0 +1,113 @@
+body {
+    width: 100%;
+    scroll-margin-bottom: none;
+    overflow-x: hidden;
+
+
+}
+
+nav {
+    background-color: brown;
+    color: white;
+    font-size: 20px;
+
+
+
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+#links {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
+
+
+
+}
+
+#search {
+    border: none;
+    border-radius: 5px;
+}
+
+input {
+    border: none;
+    color: black;
+}
+
+.row {
+    padding: 20px;
+    gap: 50px;
+}
+
+.home {
+    margin-left: 20px;
+}
+
+#logo {
+    font-size: 60px;
+    font-family: Baskerville Old Face;
+
+}
+
+.col-sm-4 {
+    display: inline-block;
+}
+
+#whatsapp {
+    position: fixed;
+    bottom: 80px;
+
+}
+
+#show {
+    color: blue;
+    text-align: right;
+}
+
+#Top {
+    position: fixed;
+    bottom: 18px;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.render:hover .overlay {
+    opacity: 1;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: rgb(244, 158, 93);
+}
+
+#copy {
+    margin-left: 40px;
+}
+
+#terms {
+    display: inline-flex;
+    right: 20px;
+}
